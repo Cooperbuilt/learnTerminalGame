@@ -7,5 +7,12 @@ window.addEventListener('keyup', (e) => {
 	//splice out for accurate length
 	keys.splice(-code.length - 1, keys.length - code.length)
 	console.log(keys);
+
+
+	//check if its the code
+	if(keys.join('').includes(code)) {
+	     alert("YES");
+	}
+
 })
 
