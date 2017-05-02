@@ -20,7 +20,15 @@ body {
 }
 
 
-.instructions {
+.load-area{
 	color: #DD98F2;
 }
 
+.question {
+	font-size: 4rem;
+	font-family: monospace;
+}
+
+.hidden-code {
+	visibility: hidden;
+}
